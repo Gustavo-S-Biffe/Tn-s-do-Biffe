@@ -188,4 +188,20 @@ margin-top: 100px;
     margin-left: 100px;
 
  }
+
+/* Resetando a decoração dos links */
+#menu {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover padding padrão de listas */
+}
+
+#menu li {
+    display: inline; /* Faz com que os itens de lista apareçam na mesma linha */
+}
+
+#menu li a {
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: black; /* Definir a cor dos links (opcional) */
+}
+
  
